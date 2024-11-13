@@ -1,0 +1,169 @@
+
+
+/* start of header */
+@media only screen and  (max-width: 576px) {
+
+
+    header{
+        width: 100%;
+        background-color: aqua;
+        font-family: 'Poppins',sans-serif;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .logo-name {
+        position: relative;
+         display: flex; 
+        font-size: 4px;
+        gap: 20px;
+    }
+
+    header a {
+        top: 0px;
+        font-size: 4px;
+        font-weight: normal;
+    }
+    .logo-name a i{
+        position: absolute;
+        bottom: 0px;
+        left:  120px;
+    }
+
+    .logo-name h6{
+        font-size: 20px;
+    }
+
+    header > a{
+        padding-right: 70px;
+    }
+
+    .full-body{
+        background-color: blue;
+        width: 576;
+    }
+
+    /* end of header  */
+
+    /* start of section 1 */
+
+
+    .section1{
+        width: 100%;
+        background-color: brown;
+    }
+
+
+    .hero-part{
+        position: relative;
+        width: 100%;
+       margin: 0 auto;
+        display: flex;
+    }
+    
+    .section1 .details{
+        top: 0;
+        z-index: 0;
+        position: absolute;
+        margin: 20px;
+        width: 44%;
+        height: 295px;
+        transform: translate(0px,6px);
+        box-shadow: none;
+        border: 1px solid rgb(182, 175, 175);
+    }
+
+
+     .section1 .details h1{
+        font-size: 10px;
+     }
+    
+     .section1 p{
+        margin: 10px 0px;
+        font-size: 10px;
+        color: rgb(122, 118, 118);
+     }
+    
+    
+    .section1 .address .location{
+    }
+    
+    .hero-part span{
+        font-size: 6px;
+    }
+    
+    .hero-part h5{
+        font-size: 6px;
+    }
+    
+    .hero-part .date{
+        justify-content: space-evenly;
+        display: flex;
+        border: 1px solid rgb(160, 160, 160);
+        border-radius: 8px;
+        height: 60px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .date .date1{
+        padding-left: 10px;
+        width: 50%;
+    }
+    
+    .date .header-hr{
+        margin-right: 20px;
+        height: 40px;
+        width: 1px;
+        border: .1px solid rgb(138, 135, 135);
+    }
+    
+    .date  h6{
+        font-size: 16px;
+        color: #817e80;
+    }
+    
+    .date .date2{
+        width: 50%;
+    }
+    
+
+
+    .hero-part button{
+        font-size: 12px;
+    }
+    
+    .hero-part .search-icon{
+        font-size: 12px;
+    }
+    
+    
+    
+    .section1 .image{
+        position: absolute;
+        transform: translate(-14px,25px);
+        width: 48%;
+        height: 295px;
+    }
+    
+    
+    .section1 .image img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+
+  }
+
+
+  /* end media query of small divices */
+
+
+  /* start media query of medium divices */
+
+  @media only screen and (min-width:577) and (max-width:768) {
+    
+  }
